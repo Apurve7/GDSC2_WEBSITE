@@ -1,0 +1,284 @@
+/* CSS Reset */
+*{
+     margin: 10 px;
+     padding:10 px;
+}
+
+/* CSS variables */
+
+:root{
+     --navbar-height:59px;
+}
+
+/* Navigation Bar */
+#navbar{
+     display:flex;
+     align-items:center;
+}
+
+/* Navigation Bar:Logo and Image  */
+
+#logo{
+     margin:8px 6px;
+}
+#logo img{
+     height:36px;
+     margin: 9px 10px;
+
+}
+
+/* Navigation Bar:List Styling */
+#navbar{
+     position:relative;
+}
+
+#navbar ul{
+     display:flex;
+}
+
+#navbar::before{
+     content:"";
+     background-color: white;
+     position: absolute;
+     height:100%;
+     width:100%;
+     z-index:-1;
+     opacity:0.4;
+}
+
+
+#navbar ul li{
+     list-style:none;
+     font-size:1.5rem;
+}
+#navbar ul li a{
+     display:block;
+     padding: 0px 20px;;
+     border-radius:20px;
+     text-decoration:none;
+}
+
+#navbar ul li a:hover{
+     color:white;
+     background-color: black;
+}
+
+/* Home Section  */
+
+#home{
+     display:flex;
+     flex-direction: column;
+     padding:0px 0px;
+     justify-content: center;
+     align-items: center;
+}
+#home::before{
+     content:"";
+     position: absolute;
+     height:100%;
+     width:100%;
+     z-index:-1;
+     opacity:0.4;
+}
+
+.Button img {
+     margin: 10px 10px;
+     padding:10px 10px;
+}
+.arrow img{
+     margin: 8px 5px;
+     padding:0px 0px;
+}
+.know img{
+     margin: 48px 15px;
+     padding: 10px 10px;
+}
+.right {
+     font-family: 'Baloo Bhai', cursive;
+     margin: 0px 9px;
+     background-color: rgb(82, 97, 171);
+     color: rgb(255, 255, 255);
+     padding: 4px 14px;
+     border: 2px solid grey;
+     border-radius: 10px;
+     font-size: 15px;
+     cursor: pointer;
+}
+
+/* Middle Section */
+
+#middle{
+     display:flex;
+     flex-direction: column;
+     padding:0px 0px;
+     justify-content: center;
+     align-items: center;
+}
+#middle::before{
+     content:"";
+     position: absolute;
+     height:100%;
+     width:100%;
+     z-index:-1;
+     opacity:0.4;
+}
+.Command img{
+     margin: -356px 78px;
+     padding: 28px;
+     width: 49%;
+     float: right;
+     position: static;
+     font-size: 1.5rem;
+}
+
+/* Perspective Section  */
+
+#perspective{
+     display:flex;
+     flex-direction: column;
+     padding:0px 0px;
+     justify-content: center;
+     align-items: center;
+}
+#perspective::before{
+     content:"";
+     position: absolute;
+     height:100%;
+     width:100%;
+     z-index:-1;
+     opacity:0.4;
+}
+.pective img{
+     float:right;
+     margin: 30px 25px;
+     padding: 10px;
+}
+.Secondary img{
+     padding:31px 42px;
+     margin:66px 26px;
+}
+
+/* Going Section  */
+
+#going{
+     display:flex;
+     flex-direction: column;
+     padding:0px 0px;
+     justify-content: center;
+     align-items: center;
+}
+
+#middle::before{
+     content:"";
+     position: absolute;
+     height:100%;
+     width:100%;
+     z-index:-1;
+     opacity:0.4;
+}
+.Command1 img{
+     margin: -331px 30px;
+     padding: 28px;
+     width: 49%;
+     float: right;
+     position: static;
+     font-size: 1.5rem;
+
+}
+
+/* Image Section  */
+
+#image{
+     display:flex;
+     flex-direction: row;
+     padding:180px 20px;
+      justify-content: center;
+      align-items: center;  
+}
+/* #image::before{
+     content:"";
+     position: absolute;
+     height:100%;
+     width:100%;
+     z-index:-1;
+     opacity:0.4;
+} */
+.google-1 img{
+     padding: 90px 90px;
+}
+.google-2 img{
+     padding: 90px 90px;
+     margin:0px 0px;
+}
+.google-3 img{
+     padding: 90px 90px;
+     margin:0px 0px;
+
+}
+.google-4 img{
+     padding: 90px 90px;
+     margin:0px 0px;
+}
+
+#technology{
+     display:flex;
+     flex-direction: column;
+     margin:-36px 0px;
+     justify-content: center;
+     align-items: center;
+}
+#technology1{
+     display:flex;
+     flex-direction: column;
+     padding:0px 0px;
+     justify-content: center;
+     align-items: center;
+}
+#text-tech{
+     display:flex;
+     flex-direction: column;
+     padding:0px 0px;
+     justify-content: center;
+     align-items: center;
+}
+#Social{
+     display:flex;
+     flex-direction: row;
+     padding:180px 20px;
+      justify-content: center;
+      align-items: center; 
+}
+#facts{
+     display:flex;
+     flex-direction: column;
+     padding:0px 0px;
+     justify-content: center;
+     align-items: center;
+}
+#club{
+     display:flex;
+     flex-direction: column;
+     padding:0px 0px;
+     justify-content: center;
+     align-items: center;
+}
+.GDSC1 img{
+     padding: 56px 40px;
+     margin:0px 0px;
+}
+.GDSC2 img{
+     padding: 56px 40px;
+     margin:0px 0px;
+}
+.GDSC3 img{
+     padding: 56px 40px;
+     margin:0px 0px;
+}
+.GDSC4 img{
+     padding: 56px 40px;
+     margin:0px 0px;
+}
+.GDSC5 img{
+     padding: 56px 40px;
+     margin:0px 0px;
+}
